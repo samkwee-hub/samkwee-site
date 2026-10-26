@@ -1,14 +1,14 @@
 :root{--bg:#0B0E14;--bg2:#11161F;--card:#161C27;--line:rgba(255,255,255,.08);--gold:#C9A24B;--gold2:#E8C877;--text:#EDEBE6;--muted:#A3A7B0;--green:#25D366}
 *{box-sizing:border-box;margin:0;padding:0}
 html{scroll-behavior:smooth}
-body{background:var(--bg);color:var(--text);font-family:Inter,system-ui,sans-serif;line-height:1.65;overflow-x:hidden}
+body{background:var(--bg);color:var(--text);font-family:Inter,system-ui,"Noto Sans SC","PingFang SC","Microsoft YaHei",sans-serif;line-height:1.65;overflow-x:hidden}
 a{color:inherit;text-decoration:none}
 img{max-width:100%;display:block}
 .wrap{width:min(1180px,100% - 40px);margin-inline:auto}
 .gold{color:var(--gold)}
 .eyebrow{display:inline-flex;align-items:center;gap:10px;font-size:.78rem;letter-spacing:.22em;text-transform:uppercase;color:var(--gold)}
 .eyebrow::before{content:"";width:28px;height:1px;background:var(--gold)}
-h2{font-family:"Playfair Display",serif;font-size:clamp(2rem,4.2vw,3.2rem);line-height:1.15;font-weight:600;margin:14px 0 18px}
+h2{font-family:"Playfair Display","Noto Serif SC","Songti SC",serif;font-size:clamp(2rem,4.2vw,3.2rem);line-height:1.15;font-weight:600;margin:14px 0 18px}
 section{padding:110px 0;position:relative}
 .lead{color:var(--muted);font-size:1.08rem;max-width:640px}
 .btn{display:inline-flex;align-items:center;gap:10px;padding:15px 26px;border-radius:999px;font-weight:600;font-size:.98rem;transition:transform .3s,box-shadow .3s;cursor:pointer;border:0}
@@ -27,10 +27,15 @@ nav .wrap{display:flex;align-items:center;justify-content:space-between;gap:20px
 .nav-links a:hover{color:var(--gold2)}
 .nav-cta{padding:10px 18px;font-size:.88rem}
 @media(max-width:960px){.nav-links{display:none}}
+.lang{display:flex;gap:4px;border:1px solid var(--line);border-radius:999px;padding:3px;background:rgba(255,255,255,.04);margin-left:auto}
+.lang button{border:0;background:transparent;color:var(--muted);font:600 .78rem Inter,system-ui,sans-serif;padding:6px 11px;border-radius:999px;cursor:pointer;transition:background .3s,color .3s}
+.lang button:hover{color:var(--gold2)}
+.lang button.on{background:var(--gold);color:#141008}
+@media(max-width:520px){nav .wrap{gap:8px}.lang button{padding:5px 8px;font-size:.72rem}.nav-cta{padding:9px 12px;font-size:.8rem}}
 .hero{position:relative;min-height:100vh;display:flex;align-items:center;overflow:hidden;background:#0B0E14}
 .hero .wrap{display:block}
 .hero-inner{max-width:580px}
-.hero h1{font-family:"Playfair Display",serif;font-size:clamp(2.6rem,6.2vw,5rem);line-height:1.05;font-weight:700;margin:22px 0 24px}
+.hero h1{font-family:"Playfair Display","Noto Serif SC","Songti SC",serif;font-size:clamp(2.6rem,6.2vw,5rem);line-height:1.05;font-weight:700;margin:22px 0 24px}
 .hero h1 .w{display:inline-block;opacity:0;transform:translateY(40px) rotate(3deg);animation:wordup .9s cubic-bezier(.2,.8,.2,1) forwards}
 .hero h1 em{font-style:italic;background:linear-gradient(120deg,var(--gold),var(--gold2),var(--gold));-webkit-background-clip:text;background-clip:text;color:transparent;background-size:200% 100%;animation:shine 5s linear infinite}
 @keyframes wordup{to{opacity:1;transform:none}}
@@ -45,7 +50,7 @@ nav .wrap{display:flex;align-items:center;justify-content:space-between;gap:20px
 @keyframes scrolly{0%{opacity:0;transform:translateY(0)}40%{opacity:1}100%{opacity:0;transform:translateY(14px)}}
 .marquee{border-block:1px solid var(--line);background:var(--bg2);overflow:hidden;padding:20px 0}
 .track{display:flex;gap:56px;width:max-content;animation:marq 32s linear infinite}
-.track span{font-family:"Playfair Display";font-size:1.35rem;color:#C9C6BE;white-space:nowrap;display:flex;align-items:center;gap:56px}
+.track span{font-family:"Playfair Display","Noto Serif SC",serif;font-size:1.35rem;color:#C9C6BE;white-space:nowrap;display:flex;align-items:center;gap:56px}
 .track span::after{content:"✦";color:var(--gold);font-size:.9rem}
 @keyframes marq{to{transform:translateX(-50%)}}
 .reveal{opacity:0;transform:translateY(40px);transition:opacity 1s cubic-bezier(.2,.8,.2,1),transform 1s cubic-bezier(.2,.8,.2,1)}
@@ -75,7 +80,7 @@ nav .wrap{display:flex;align-items:center;justify-content:space-between;gap:20px
 .stat{border:1px solid var(--line);border-radius:18px;padding:20px;text-align:center;background:rgba(255,255,255,.02)}
 .stat b{font-family:"Playfair Display";font-size:2.3rem;color:var(--gold2);display:block;line-height:1.1}
 .stat span{font-size:.82rem;color:var(--muted)}
-blockquote{border-left:2px solid var(--gold);padding:6px 0 6px 20px;font-family:"Playfair Display";font-style:italic;font-size:1.25rem;color:#E6E1D6}
+blockquote{border-left:2px solid var(--gold);padding:6px 0 6px 20px;font-family:"Playfair Display","Noto Serif SC",serif;font-style:italic;font-size:1.25rem;color:#E6E1D6}
 @media(max-width:900px){.why{grid-template-columns:1fr}.badge-float{right:10px}}
 .magic{background:radial-gradient(900px 500px at 80% 20%,rgba(201,162,75,.10),transparent 60%),var(--bg2);overflow:hidden}
 .magic-grid{display:grid;grid-template-columns:1.1fr 1fr;gap:60px;align-items:center}
@@ -107,7 +112,7 @@ blockquote{border-left:2px solid var(--gold);padding:6px 0 6px 20px;font-family:
 .octo{margin-top:30px;color:var(--muted);font-size:.95rem;border-top:1px dashed var(--line);padding-top:24px}
 @media(max-width:800px){.clocks{grid-template-columns:1fr}}
 .manifesto{text-align:center;padding:140px 0;background:linear-gradient(180deg,var(--bg),#0E1219)}
-.manifesto .big{font-family:"Playfair Display";font-size:clamp(2.2rem,5.5vw,4.4rem);line-height:1.15;max-width:950px;margin:20px auto 0}
+.manifesto .big{font-family:"Playfair Display","Noto Serif SC","Songti SC",serif;font-size:clamp(2.2rem,5.5vw,4.4rem);line-height:1.15;max-width:950px;margin:20px auto 0}
 .manifesto .big span{opacity:.15;transition:opacity .5s}
 .manifesto .big span.lit{opacity:1}
 .manifesto .sig{margin-top:28px;color:var(--gold);letter-spacing:.2em;text-transform:uppercase;font-size:.85rem}
@@ -119,7 +124,7 @@ a.cbox:hover{transform:translateX(6px);border-color:rgba(201,162,75,.5)}
 .cbox b{font-weight:600;font-size:1.02rem}
 .cbox.wa .icon{background:rgba(37,211,102,.14);color:var(--green)}
 .formcard{background:var(--card);border:1px solid var(--line);border-radius:24px;padding:30px}
-.formcard h3{font-family:"Playfair Display";font-size:1.6rem;margin-bottom:6px}
+.formcard h3{font-family:"Playfair Display","Noto Serif SC",serif;font-size:1.6rem;margin-bottom:6px}
 .formcard p{color:var(--muted);font-size:.95rem;margin-bottom:18px}
 @media(max-width:900px){.contact-grid{grid-template-columns:1fr}}
 footer{border-top:1px solid var(--line);padding:40px 0 100px;color:var(--muted);font-size:.86rem}
@@ -162,3 +167,4 @@ nav.scrolled .logo-img{transform:scale(.82);height:68px}
 .socials a:hover{transform:translateY(-3px);border-color:#C9A24B;color:#E8C877}
 .socials svg{width:18px;height:18px}
 .cbox.tt .icon{background:rgba(255,255,255,.08);color:#fff;filter:drop-shadow(-1.5px -1px 0 #25F4EE) drop-shadow(1.5px 1px 0 #FE2C55)}
+html[lang="zh-Hans"] .hero h1{font-size:clamp(2.1rem,4.4vw,3.6rem) !important;line-height:1.2}
