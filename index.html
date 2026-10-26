@@ -1,10 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- BASE:START (managed by Coding Agent — do not edit) -->
-<base href="/">
-<!-- BASE:END -->
-
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -28,9 +24,9 @@
 <meta name="twitter:title" content="Sam Kwee Digital Studio — Not retiring life, but redesigning life" />
 <meta name="twitter:description" content="AI-powered videos in English &amp; Chinese, ready-to-use content and simple funnels that help advisors, consultants and coaches build trust online." />
 <meta name="twitter:image" content="https://my.chatbees.io/objects/quick-uploads/1480/ef9978d47740708a.jpg" />
-<link rel="icon" type="image/x-icon" sizes="16x16 32x32 48x48" href="/samkwee-site/favicon.ico" />
-<link rel="icon" type="image/png" sizes="192x192" href="/samkwee-site/favicon.png" />
-<link rel="apple-touch-icon" sizes="180x180" href="/samkwee-site/apple-touch-icon.png" />
+<link rel="icon" type="image/x-icon" sizes="16x16 32x32 48x48" href="/favicon.ico" />
+<link rel="icon" type="image/png" sizes="192x192" href="/favicon.png" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
 <!-- End SEO Meta Tags -->
 <script data-lp-token-hydrate>
 (function(){try{
@@ -327,8 +323,9 @@
 <nav id="nav">
   <div class="wrap">
     <a href="#top" class="logo"><span class="logo-img" role="img" aria-label="Sam Kwee logo"></span><span class="logo-sub">Digital Studio</span></a>
-    <div class="nav-links"><a href="#services">Services</a><a href="#why">Why me</a><a href="#magic">The magic</a><a href="#moments">Moments</a><a href="#global">Work with me</a><a href="#contact">Contact</a></div>
-    <a class="btn btn-wa nav-cta" href="https://wa.me/60122863063?text=Hi%20Sam%2C%20I%20found%20you%20on%20your%20website.%20I%27d%20like%20to%20know%20more%20about%20Sam%20Kwee%20Digital%20Studio." target="_blank" rel="noopener"><svg><use href="#wa"/></svg>WhatsApp</a>
+    <div class="nav-links"><a href="#services" data-i18n="n1">Services</a><a href="#why" data-i18n="n2">Why me</a><a href="#magic" data-i18n="n3">The magic</a><a href="#moments" data-i18n="n4">Moments</a><a href="#global" data-i18n="n5">Work with me</a><a href="#contact" data-i18n="n6">Contact</a></div>
+    <div class="lang" id="lang" role="group" aria-label="Language"><button type="button" data-l="en" class="on">EN</button><button type="button" data-l="zh">中文</button><button type="button" data-l="ms">BM</button></div>
+    <a class="btn btn-wa nav-cta" data-wa="nav" href="https://wa.me/60122863063?text=Hi%20Sam%2C%20I%20found%20you%20on%20your%20website.%20I%27d%20like%20to%20know%20more%20about%20Sam%20Kwee%20Digital%20Studio." target="_blank" rel="noopener"><svg><use href="#wa"/></svg>WhatsApp</a>
   </div>
 </nav>
 
@@ -337,34 +334,34 @@
   <button class="sound-btn" id="soundBtn" aria-label="Turn sound on">🔇</button>
   <div class="wrap">
     <div class="hero-inner">
-      <span class="eyebrow">Sam Kwee · Digital Creator</span>
+      <span class="eyebrow" data-i18n="h_eyebrow">Sam Kwee · Digital Creator</span>
       <h1 id="heroTitle">Not retiring life, but <em>redesigning</em> life.</h1>
-      <p class="sub">I help advisors, consultants, coaches and small business owners <strong>build trust online</strong> — with short, professional AI-powered videos, ready-to-use content and simple funnels that turn viewers into enquiries.</p>
+      <p class="sub" data-i18n="h_sub">I help advisors, consultants, coaches and small business owners <strong>build trust online</strong> — with short, professional AI-powered videos, ready-to-use content and simple funnels that turn viewers into enquiries.</p>
       <div class="ctas">
-        <a class="btn btn-wa" href="https://wa.me/60122863063?text=Hi%20Sam%2C%20I%27d%20like%20to%20talk%20about%20building%20trust%20online%20for%20my%20business." target="_blank" rel="noopener"><svg><use href="#wa"/></svg>Chat on WhatsApp</a>
-        <a class="btn btn-ghost" href="#contact">Get my FREE Gap Assessment →</a>
+        <a class="btn btn-wa" data-wa="hero" href="https://wa.me/60122863063?text=Hi%20Sam%2C%20I%27d%20like%20to%20talk%20about%20building%20trust%20online%20for%20my%20business." target="_blank" rel="noopener"><svg><use href="#wa"/></svg><span data-i18n="h_cta1">Chat on WhatsApp</span></a>
+        <a class="btn btn-ghost" href="#contact" data-i18n="h_cta2">Get my FREE Gap Assessment →</a>
       </div>
-      <div class="chips"><span class="chip">🎬 AI videos in English &amp; 中文</span><span class="chip">🌏 US · Australia · Malaysia</span><span class="chip">🎩 Award-winning magician</span></div>
+      <div class="chips"><span class="chip" data-i18n="chip1">🎬 AI videos in English &amp; 中文</span><span class="chip" data-i18n="chip2">🌏 US · Australia · Malaysia</span><span class="chip" data-i18n="chip3">🎩 Award-winning magician</span></div>
     </div>
   </div>
   <div class="scroll-hint"></div>
 </header>
 
-<div class="marquee" aria-hidden="true"><div class="track">
+<div class="marquee" aria-hidden="true"><div class="track" id="marqueeTrack">
 <span>AI-Powered Videos</span><span>English &amp; 中文</span><span>Social Media Content</span><span>Starter Content Packs</span><span>Simple Funnels</span><span>Email Follow-up</span><span>Trust in Seconds</span>
 <span>AI-Powered Videos</span><span>English &amp; 中文</span><span>Social Media Content</span><span>Starter Content Packs</span><span>Simple Funnels</span><span>Email Follow-up</span><span>Trust in Seconds</span>
 </div></div>
 
 <section id="services" data-section="services">
   <div class="wrap">
-    <span class="eyebrow reveal">What I do</span>
-    <h2 class="reveal d1">Get visible. Get trusted.<br><span class="gold">Get enquiries.</span></h2>
-    <p class="lead reveal d2">Done-for-you digital content for people whose business runs on trust — no studio, no new software, no learning curve.</p>
+    <span class="eyebrow reveal" data-i18n="s_eyebrow">What I do</span>
+    <h2 class="reveal d1" data-i18n="s_h2">Get visible. Get trusted.<br><span class="gold">Get enquiries.</span></h2>
+    <p class="lead reveal d2" data-i18n="s_lead">Done-for-you digital content for people whose business runs on trust — no studio, no new software, no learning curve.</p>
     <div class="grid4">
-      <div class="card reveal d1" data-tilt><span class="num">01</span><div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="5" width="14" height="14" rx="3"/><path d="M16 10l6-3v10l-6-3z"/></svg></div><h3>AI-Powered Videos</h3><p>Short, professional videos in English or Chinese that introduce you, explain your service and earn attention in the first few seconds.</p></div>
-      <div class="card reveal d2" data-tilt><span class="num">02</span><div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="4"/><path d="M3 9h18M9 21V9"/></svg></div><h3>Social Media Content</h3><p>Ready-to-use posts, captions and visuals written in plain words — the kind people actually remember and share.</p></div>
-      <div class="card reveal d3" data-tilt><span class="num">03</span><div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M13 2L4 14h7l-1 8 9-12h-7z"/></svg></div><h3>Starter Content Packs</h3><p>Get visible fast. A complete starter set of videos and posts — with no studio and no new software to learn.</p></div>
-      <div class="card reveal d4" data-tilt><span class="num">04</span><div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 4h18l-7 8v6l-4 2v-8z"/></svg></div><h3>Funnels &amp; Email Follow-up</h3><p>Simple funnels and gentle email follow-up that turn viewers into real enquiries — while you focus on your clients.</p></div>
+      <div class="card reveal d1" data-tilt><span class="num">01</span><div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="5" width="14" height="14" rx="3"/><path d="M16 10l6-3v10l-6-3z"/></svg></div><h3 data-i18n="c1h">AI-Powered Videos</h3><p data-i18n="c1p">Short, professional videos in English or Chinese that introduce you, explain your service and earn attention in the first few seconds.</p></div>
+      <div class="card reveal d2" data-tilt><span class="num">02</span><div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="4"/><path d="M3 9h18M9 21V9"/></svg></div><h3 data-i18n="c2h">Social Media Content</h3><p data-i18n="c2p">Ready-to-use posts, captions and visuals written in plain words — the kind people actually remember and share.</p></div>
+      <div class="card reveal d3" data-tilt><span class="num">03</span><div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M13 2L4 14h7l-1 8 9-12h-7z"/></svg></div><h3 data-i18n="c3h">Starter Content Packs</h3><p data-i18n="c3p">Get visible fast. A complete starter set of videos and posts — with no studio and no new software to learn.</p></div>
+      <div class="card reveal d4" data-tilt><span class="num">04</span><div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 4h18l-7 8v6l-4 2v-8z"/></svg></div><h3 data-i18n="c4h">Funnels &amp; Email Follow-up</h3><p data-i18n="c4p">Simple funnels and gentle email follow-up that turn viewers into real enquiries — while you focus on your clients.</p></div>
     </div>
   </div>
 </section>
@@ -374,18 +371,18 @@
     <div class="portrait-wrap reveal">
       <div class="portrait-frame"></div>
       <div class="portrait"><img src="https://my.chatbees.io/objects/quick-uploads/1480/5d9ef0dca46b8f5c.jpg" alt="Sam Kwee, founder of Sam Kwee Digital Studio" loading="lazy"></div>
-      <div class="badge-float"><b>30+</b><span>years in finance &amp; advisory</span></div>
+      <div class="badge-float"><b>30+</b><span data-i18n="w_badge">years in finance &amp; advisory</span></div>
     </div>
     <div>
-      <span class="eyebrow reveal">Why me</span>
-      <h2 class="reveal d1">I know how advisors think — and how clients decide.</h2>
-      <p class="lead reveal d2">30+ years in insurance, banking, property and financial planning taught me how advisors think and how clients decide. I write in plain words, because simple words are what people remember.</p>
+      <span class="eyebrow reveal" data-i18n="w_eyebrow">Why me</span>
+      <h2 class="reveal d1" data-i18n="w_h2">I know how advisors think — and how clients decide.</h2>
+      <p class="lead reveal d2" data-i18n="w_lead">30+ years in insurance, banking, property and financial planning taught me how advisors think and how clients decide. I write in plain words, because simple words are what people remember.</p>
       <div class="stats reveal d3">
-        <div class="stat"><b data-count="30" data-suffix="+">0</b><span>Years of experience</span></div>
-        <div class="stat"><b data-count="2">0</b><span>Languages · EN &amp; 中文</span></div>
-        <div class="stat"><b data-count="4">0</b><span>Industries: insurance, banking, property, planning</span></div>
+        <div class="stat"><b data-count="30" data-suffix="+">0</b><span data-i18n="st1">Years of experience</span></div>
+        <div class="stat"><b data-count="2">0</b><span data-i18n="st2">Languages · EN &amp; 中文</span></div>
+        <div class="stat"><b data-count="4">0</b><span data-i18n="st3">Industries: insurance, banking, property, planning</span></div>
       </div>
-      <blockquote class="reveal d4">“Simple words are what people remember.”</blockquote>
+      <blockquote class="reveal d4" data-i18n="w_quote">“Simple words are what people remember.”</blockquote>
     </div>
   </div>
 </section>
@@ -393,12 +390,12 @@
 <section id="magic" class="magic" data-section="magic">
   <div class="wrap magic-grid">
     <div>
-      <span class="eyebrow reveal">The secret ingredient</span>
-      <h2 class="reveal d1">Trust is built in the <span class="gold">first few seconds.</span></h2>
-      <p class="lead reveal d2">I'm also a performing magician. Magic taught me that trust is built in the first few seconds — and good video works the same way. Every video I make is designed to win those first seconds.</p>
+      <span class="eyebrow reveal" data-i18n="m_eyebrow">The secret ingredient</span>
+      <h2 class="reveal d1" data-i18n="m_h2">Trust is built in the <span class="gold">first few seconds.</span></h2>
+      <p class="lead reveal d2" data-i18n="m_lead">I'm also a performing magician. Magic taught me that trust is built in the first few seconds — and good video works the same way. Every video I make is designed to win those first seconds.</p>
       <div class="award reveal d3">
         <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="9" r="6"/><path d="M8.5 14.5L7 22l5-3 5 3-1.5-7.5"/></svg></div>
-        <div><b>Best Entertainment Value Magician, Malaysia — 2019</b><br><span style="color:var(--muted);font-size:.93rem">Certificate of Appreciation from the International Magicians Society.</span></div>
+        <div data-i18n="m_award"><b>Best Entertainment Value Magician, Malaysia — 2019</b><br><span style="color:var(--muted);font-size:.93rem">Certificate of Appreciation from the International Magicians Society.</span></div>
       </div>
     </div>
     <div class="cards-stage" id="cardsStage">
@@ -411,14 +408,14 @@
 
 <section id="moments" data-section="gallery">
   <div class="wrap">
-    <span class="eyebrow reveal">Behind the studio</span>
-    <h2 class="reveal d1">Always learning.<br><span class="gold">Always creating.</span></h2>
-    <p class="lead reveal d2">From the stage to the studio — I keep learning the newest AI and content tools, so my clients don't have to.</p>
+    <span class="eyebrow reveal" data-i18n="g_eyebrow">Behind the studio</span>
+    <h2 class="reveal d1" data-i18n="g_h2">Always learning.<br><span class="gold">Always creating.</span></h2>
+    <p class="lead reveal d2" data-i18n="g_lead">From the stage to the studio — I keep learning the newest AI and content tools, so my clients don't have to.</p>
     <div class="gallery">
-      <figure class="reveal d1" style="position:relative"><img src="https://my.chatbees.io/objects/quick-uploads/1480/6500f0b16168fca8.jpg" alt="Sam Kwee" loading="lazy"><figcaption style="position:absolute;left:14px;right:14px;bottom:12px;z-index:2;font-size:.82rem;font-weight:600;color:#fff;text-shadow:0 2px 8px rgba(0,0,0,.6)">Sam Kwee · Digital Creator</figcaption></figure>
+      <figure class="reveal d1" style="position:relative"><img src="https://my.chatbees.io/objects/quick-uploads/1480/6500f0b16168fca8.jpg" alt="Sam Kwee" loading="lazy"><figcaption data-i18n="g1" style="position:absolute;left:14px;right:14px;bottom:12px;z-index:2;font-size:.82rem;font-weight:600;color:#fff;text-shadow:0 2px 8px rgba(0,0,0,.6)">Sam Kwee · Digital Creator</figcaption></figure>
       <figure class="reveal d2" style="position:relative"><img src="https://my.chatbees.io/objects/quick-uploads/1480/76bd778f8d584517.jpg" alt="Sam Kwee" loading="lazy"><figcaption style="position:absolute;left:14px;right:14px;bottom:12px;z-index:2;font-size:.82rem;font-weight:600;color:#fff;text-shadow:0 2px 8px rgba(0,0,0,.6)">AI Content IP Marketing Masterclass</figcaption></figure>
-      <figure class="reveal d3" style="position:relative"><img src="https://my.chatbees.io/objects/quick-uploads/1480/e869c50bc224e338.jpg" alt="Sam Kwee" loading="lazy"><figcaption style="position:absolute;left:14px;right:14px;bottom:12px;z-index:2;font-size:.82rem;font-weight:600;color:#fff;text-shadow:0 2px 8px rgba(0,0,0,.6)">Certified · AI Content IP Marketing Masterclass</figcaption></figure>
-      <figure class="reveal d4" style="position:relative"><img src="https://my.chatbees.io/objects/quick-uploads/1480/028bcb4c0f9d79d9.jpg" alt="Sam Kwee" loading="lazy"><figcaption style="position:absolute;left:14px;right:14px;bottom:12px;z-index:2;font-size:.82rem;font-weight:600;color:#fff;text-shadow:0 2px 8px rgba(0,0,0,.6)">Creating content for TikTok Shop</figcaption></figure>
+      <figure class="reveal d3" style="position:relative"><img src="https://my.chatbees.io/objects/quick-uploads/1480/e869c50bc224e338.jpg" alt="Sam Kwee" loading="lazy"><figcaption data-i18n="g3" style="position:absolute;left:14px;right:14px;bottom:12px;z-index:2;font-size:.82rem;font-weight:600;color:#fff;text-shadow:0 2px 8px rgba(0,0,0,.6)">Certified · AI Content IP Marketing Masterclass</figcaption></figure>
+      <figure class="reveal d4" style="position:relative"><img src="https://my.chatbees.io/objects/quick-uploads/1480/028bcb4c0f9d79d9.jpg" alt="Sam Kwee" loading="lazy"><figcaption data-i18n="g4" style="position:absolute;left:14px;right:14px;bottom:12px;z-index:2;font-size:.82rem;font-weight:600;color:#fff;text-shadow:0 2px 8px rgba(0,0,0,.6)">Creating content for TikTok Shop</figcaption></figure>
       <figure class="reveal d1" style="position:relative"><img src="https://my.chatbees.io/objects/quick-uploads/1480/a0a334a8fd9e80f6.jpg" alt="Sam Kwee" loading="lazy"><figcaption style="position:absolute;left:14px;right:14px;bottom:12px;z-index:2;font-size:.82rem;font-weight:600;color:#fff;text-shadow:0 2px 8px rgba(0,0,0,.6)">Lincoln University College</figcaption></figure>
     </div>
   </div>
@@ -426,21 +423,21 @@
 
 <section id="global" style="background:var(--bg2)" data-section="global">
   <div class="wrap">
-    <span class="eyebrow reveal">Working together</span>
-    <h2 class="reveal d1">Based in Malaysia.<br>Working across time zones.</h2>
-    <p class="lead reveal d2">I work with clients across time zones, with a focus on the United States and Australia — so your content is ready when your clients wake up.</p>
+    <span class="eyebrow reveal" data-i18n="gl_eyebrow">Working together</span>
+    <h2 class="reveal d1" data-i18n="gl_h2">Based in Malaysia.<br>Working across time zones.</h2>
+    <p class="lead reveal d2" data-i18n="gl_lead">I work with clients across time zones, with a focus on the United States and Australia — so your content is ready when your clients wake up.</p>
     <div class="clocks">
-      <div class="clock home reveal d1"><div class="city"><span class="dot"></span>Kuala Lumpur · Studio</div><div class="time" data-tz="Asia/Kuala_Lumpur">--:--</div><div class="tag" data-day="Asia/Kuala_Lumpur"></div></div>
-      <div class="clock reveal d2"><div class="city">New York · USA</div><div class="time" data-tz="America/New_York">--:--</div><div class="tag" data-day="America/New_York"></div></div>
-      <div class="clock reveal d3"><div class="city">Melbourne · Australia</div><div class="time" data-tz="Australia/Melbourne">--:--</div><div class="tag" data-day="Australia/Melbourne"></div></div>
+      <div class="clock home reveal d1"><div class="city" data-i18n="cl1"><span class="dot"></span>Kuala Lumpur · Studio</div><div class="time" data-tz="Asia/Kuala_Lumpur">--:--</div><div class="tag" data-day="Asia/Kuala_Lumpur"></div></div>
+      <div class="clock reveal d2"><div class="city" data-i18n="cl2">New York · USA</div><div class="time" data-tz="America/New_York">--:--</div><div class="tag" data-day="America/New_York"></div></div>
+      <div class="clock reveal d3"><div class="city" data-i18n="cl3">Melbourne · Australia</div><div class="time" data-tz="Australia/Melbourne">--:--</div><div class="tag" data-day="Australia/Melbourne"></div></div>
     </div>
-    <p class="octo reveal">Separately, I continue my wills, trusts and legacy planning work through <strong style="color:var(--text)">Octowill</strong> for clients in Malaysia.</p>
+    <p class="octo reveal" data-i18n="octo">Separately, I continue my wills, trusts and legacy planning work through <strong style="color:var(--text)">Octowill</strong> for clients in Malaysia.</p>
   </div>
 </section>
 
 <section class="manifesto" data-section="manifesto">
   <div class="wrap">
-    <span class="eyebrow">My second chapter</span>
+    <span class="eyebrow" data-i18n="mf_eyebrow">My second chapter</span>
     <p class="big" id="manifesto">At 58, I'm not retiring from life. I'm redesigning it.</p>
     <p class="sig">— Sam Kwee</p>
   </div>
@@ -449,35 +446,32 @@
 <section id="contact" style="background:var(--bg2)" data-section="contact">
   <div class="wrap contact-grid">
     <div>
-      <span class="eyebrow reveal">Let's talk</span>
-      <h2 class="reveal d1">Ready to be seen — and trusted?</h2>
-      <p class="lead reveal d2" style="margin-bottom:30px">The fastest way to reach me is WhatsApp. I reply personally.</p>
-      <a class="cbox wa reveal d1" href="https://wa.me/60122863063?text=Hi%20Sam%2C%20I%27d%20like%20to%20know%20more%20about%20your%20services." target="_blank" rel="noopener"><div class="icon"><svg><use href="#wa"/></svg></div><div><small>WhatsApp</small><b>+60 12-286 3063</b></div></a>
-      <a class="cbox reveal d2" href="tel:+60122863063"><div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg></div><div><small>Call</small><b>012-286 3063</b></div></a>
-      <a class="cbox reveal d3" href="mailto:samkwee@gmail.com?subject=Enquiry%20-%20Sam%20Kwee%20Digital%20Studio"><div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="4" width="20" height="16" rx="3"/><path d="M22 7l-10 7L2 7"/></svg></div><div><small>Email</small><b>samkwee@gmail.com</b></div></a>
+      <span class="eyebrow reveal" data-i18n="ct_eyebrow">Let's talk</span>
+      <h2 class="reveal d1" data-i18n="ct_h2">Ready to be seen — and trusted?</h2>
+      <p class="lead reveal d2" style="margin-bottom:30px" data-i18n="ct_lead">The fastest way to reach me is WhatsApp. I reply personally.</p>
+      <a class="cbox wa reveal d1" data-wa="contact" href="https://wa.me/60122863063?text=Hi%20Sam%2C%20I%27d%20like%20to%20know%20more%20about%20your%20services." target="_blank" rel="noopener"><div class="icon"><svg><use href="#wa"/></svg></div><div><small>WhatsApp</small><b>+60 12-286 3063</b></div></a>
+      <a class="cbox reveal d2" href="tel:+60122863063"><div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg></div><div><small data-i18n="lb_call">Call</small><b>012-286 3063</b></div></a>
+      <a class="cbox reveal d3" href="mailto:samkwee@gmail.com?subject=Enquiry%20-%20Sam%20Kwee%20Digital%20Studio"><div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="4" width="20" height="16" rx="3"/><path d="M22 7l-10 7L2 7"/></svg></div><div><small data-i18n="lb_email">Email</small><b>samkwee@gmail.com</b></div></a>
       <a class="cbox fb reveal d3" href="https://www.facebook.com/samkweedigitalstudio" target="_blank" rel="noopener"><div class="icon"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M22 12a10 10 0 1 0-11.6 9.9v-7H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.5h-1.3c-1.2 0-1.6.8-1.6 1.6V12h2.8l-.4 2.9h-2.3v7A10 10 0 0 0 22 12z"/></svg></div><div><small>Facebook</small><b>Sam Kwee Digital Studio</b></div></a>
       <a class="cbox tt reveal d3" href="https://www.tiktok.com/@samkwee13" target="_blank" rel="noopener"><div class="icon"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M16.6 5.8A4.3 4.3 0 0 1 15.5 3h-3.1v12.4a2.6 2.6 0 1 1-2.6-2.6c.3 0 .5 0 .8.1V9.7a5.8 5.8 0 0 0-.8-.1 5.8 5.8 0 1 0 5.8 5.8V9.1a7.4 7.4 0 0 0 4.3 1.4V7.4a4.3 4.3 0 0 1-3.3-1.6z"/></svg></div><div><small>TikTok</small><b>@samkwee13</b></div></a>
       <a class="cbox reveal d4" href="https://www.google.com/maps/search/?api=1&query=541A+Jalan+Riang+11+Happy+Garden+58200+Kuala+Lumpur" target="_blank" rel="noopener"><div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 22s7-6.2 7-12a7 7 0 0 0-14 0c0 5.8 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/></svg></div><div><small>Sam Kwee Digital Studio</small><b>541A Jalan Riang 11, Happy Garden,<br>58200 Old Klang Road, Kuala Lumpur, Malaysia</b></div></a>
     </div>
     <div class="formcard reveal d2">
-      <span style="display:inline-flex;align-items:center;gap:8px;font-size:.74rem;letter-spacing:.18em;text-transform:uppercase;color:var(--gold);font-weight:600;margin-bottom:12px">✦ Free · No obligation</span>
-      <h3>Request your FREE Digital Growth Gap Assessment</h3>
-      <p>Tell me a little about your business. I'll show you where your online presence is leaking trust — and reply personally within 24 hours.</p>
+      <span data-i18n="f_badge" style="display:inline-flex;align-items:center;gap:8px;font-size:.74rem;letter-spacing:.18em;text-transform:uppercase;color:var(--gold);font-weight:600;margin-bottom:12px">✦ Free · No obligation</span>
+      <h3 data-i18n="f_h3">Request your FREE Digital Growth Gap Assessment</h3>
+      <p data-i18n="f_p">Tell me a little about your business. I'll show you where your online presence is leaking trust — and reply personally within 24 hours.</p>
       <script src="https://my.chatbees.io/forms-embed.js" data-form="zt8j7uzb" data-theme="dark" data-accent="#C9A24B" data-accent2="#E8C877" data-bg="#161C27" data-surface="#161C27" data-field="#1E2533" data-text="#EDEBE6" data-gradient="0" data-source="IP website" async></script>
     </div>
   </div>
 </section>
 
-<footer><div class="wrap"><div><strong style="color:var(--text)">Sam Kwee Digital Studio</strong> · Not retiring life, but redesigning life.</div><div>© <span id="yr"></span> Sam Kwee Digital Studio · 541A Jalan Riang 11, Happy Garden, 58200 Kuala Lumpur</div><div class="socials"><a href="https://www.facebook.com/samkweedigitalstudio" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M22 12a10 10 0 1 0-11.6 9.9v-7H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.5h-1.3c-1.2 0-1.6.8-1.6 1.6V12h2.8l-.4 2.9h-2.3v7A10 10 0 0 0 22 12z"/></svg></a><a href="https://www.tiktok.com/@samkwee13" target="_blank" rel="noopener" aria-label="TikTok"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M16.6 5.8A4.3 4.3 0 0 1 15.5 3h-3.1v12.4a2.6 2.6 0 1 1-2.6-2.6c.3 0 .5 0 .8.1V9.7a5.8 5.8 0 0 0-.8-.1 5.8 5.8 0 1 0 5.8 5.8V9.1a7.4 7.4 0 0 0 4.3 1.4V7.4a4.3 4.3 0 0 1-3.3-1.6z"/></svg></a><a href="https://wa.me/60122863063" target="_blank" rel="noopener" aria-label="WhatsApp"><svg><use href="#wa"/></svg></a></div></div></footer>
+<footer><div class="wrap"><div data-i18n="ft1"><strong style="color:var(--text)">Sam Kwee Digital Studio</strong> · Not retiring life, but redesigning life.</div><div>© <span id="yr"></span> Sam Kwee Digital Studio · 541A Jalan Riang 11, Happy Garden, 58200 Kuala Lumpur</div><div class="socials"><a href="https://www.facebook.com/samkweedigitalstudio" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M22 12a10 10 0 1 0-11.6 9.9v-7H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.5h-1.3c-1.2 0-1.6.8-1.6 1.6V12h2.8l-.4 2.9h-2.3v7A10 10 0 0 0 22 12z"/></svg></a><a href="https://www.tiktok.com/@samkwee13" target="_blank" rel="noopener" aria-label="TikTok"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M16.6 5.8A4.3 4.3 0 0 1 15.5 3h-3.1v12.4a2.6 2.6 0 1 1-2.6-2.6c.3 0 .5 0 .8.1V9.7a5.8 5.8 0 0 0-.8-.1 5.8 5.8 0 1 0 5.8 5.8V9.1a7.4 7.4 0 0 0 4.3 1.4V7.4a4.3 4.3 0 0 1-3.3-1.6z"/></svg></a><a href="https://wa.me/60122863063" target="_blank" rel="noopener" aria-label="WhatsApp"><svg><use href="#wa"/></svg></a></div></div></footer>
 
-<a class="fab" href="https://wa.me/60122863063?text=Hi%20Sam%2C%20I%20found%20you%20on%20your%20website." target="_blank" rel="noopener" aria-label="WhatsApp Sam"><svg><use href="#wa"/></svg></a>
+<a class="fab" data-wa="fab" href="https://wa.me/60122863063?text=Hi%20Sam%2C%20I%20found%20you%20on%20your%20website." target="_blank" rel="noopener" aria-label="WhatsApp Sam"><svg><use href="#wa"/></svg></a>
 <div class="fab-tip" id="fabTip">Hi! Questions? WhatsApp me 👋</div>
 
 <script>
 (function(){
-  var h=document.getElementById('heroTitle');
-  var html=h.innerHTML.replace(/<em>(.*?)<\/em>/,'§$1§'), i=0;
-  h.innerHTML=html.split(' ').map(function(w){var em=w.indexOf('§')>-1;w=w.replace(/§/g,'');return '<span class="w" style="animation-delay:'+(0.25+0.12*(i++))+'s">'+(em?'<em>'+w+'</em>':w)+'</span>';}).join(' ');
   var nav=document.getElementById('nav'),pr=document.getElementById('progress');
   window.addEventListener('scroll',function(){nav.classList.toggle('scrolled',scrollY>40);var d=document.documentElement;pr.style.width=(scrollY/(d.scrollHeight-innerHeight)*100)+'%';},{passive:true});
   var io=new IntersectionObserver(function(es){es.forEach(function(e){
@@ -492,13 +486,6 @@
     c.addEventListener('mouseleave',function(){c.style.transform='';});});
   var stage=document.getElementById('cardsStage');
   for(var s=0;s<14;s++){var sp=document.createElement('span');sp.className='sparkle';sp.style.left=Math.random()*100+'%';sp.style.top=Math.random()*100+'%';sp.style.animationDelay=(Math.random()*3)+'s';stage.appendChild(sp);}
-  var m=document.getElementById('manifesto');m.innerHTML=m.textContent.split(' ').map(function(w){return '<span>'+w+'</span>'}).join(' ');
-  var mw=m.querySelectorAll('span');
-  function lite(){var r=m.getBoundingClientRect();var p=Math.min(Math.max((innerHeight*.85-r.top)/(innerHeight*.6),0),1);var n=Math.round(p*mw.length);mw.forEach(function(w,k){w.classList.toggle('lit',k<n)});}
-  window.addEventListener('scroll',lite,{passive:true});lite();
-  function tick(){document.querySelectorAll('[data-tz]').forEach(function(el){el.textContent=new Date().toLocaleTimeString('en-GB',{timeZone:el.dataset.tz,hour:'2-digit',minute:'2-digit'});});
-    document.querySelectorAll('[data-day]').forEach(function(el){el.textContent=new Date().toLocaleDateString('en-GB',{timeZone:el.dataset.day,weekday:'long',day:'numeric',month:'short'});});}
-  tick();setInterval(tick,15000);
   var tip=document.getElementById('fabTip');setTimeout(function(){tip.classList.add('show');setTimeout(function(){tip.classList.remove('show')},6000)},5000);
   document.getElementById('yr').textContent=new Date().getFullYear();
   var hv=document.getElementById('heroVideo'),sb=document.getElementById('soundBtn'),CUT=4.6,FADE=0.9;
@@ -506,6 +493,138 @@
   hv.addEventListener('playing',hvShow);
   hv.addEventListener('timeupdate',function(){if(hv.currentTime>=CUT-FADE&&hv.style.opacity!=='0'){hv.style.opacity='0';setTimeout(function(){hv.currentTime=0;hv.play();},FADE*1000);}else if(hv.currentTime<CUT-FADE&&hv.currentTime>0.05){hv.style.opacity='1';}});
   sb.addEventListener('click',function(){hv.muted=!hv.muted;sb.textContent=hv.muted?'🔇':'🔊';if(!hv.muted)hv.play();});
+
+  /* ---------- Languages: EN / 中文 / BM ---------- */
+  var T={en:{},zh:{},ms:{}};
+  T.en.heroTitle='Not retiring life, but <em>redesigning</em> life.';
+  T.en.manifesto="At 58, I'm not retiring from life. I'm redesigning it.";
+  T.en.marquee=['AI-Powered Videos','English &amp; 中文','Social Media Content','Starter Content Packs','Simple Funnels','Email Follow-up','Trust in Seconds'];
+  T.en.title='Sam Kwee Digital Studio | Not retiring life, but redesigning life';
+  T.en.tip='Hi! Questions? WhatsApp me 👋';
+  T.en.wa={nav:"Hi Sam, I found you on your website. I'd like to know more about Sam Kwee Digital Studio.",hero:"Hi Sam, I'd like to talk about building trust online for my business.",contact:"Hi Sam, I'd like to know more about your services.",fab:"Hi Sam, I found you on your website."};
+
+  T.zh={
+    n1:'服务',n2:'为什么选我',n3:'魔术的启发',n4:'点滴时刻',n5:'合作方式',n6:'联系我',
+    h_eyebrow:'Sam Kwee · 数码创作者',
+    h_sub:'我帮助顾问、咨询师、教练和小生意老板，在网上<strong>建立信任</strong>——用简短专业的 AI 视频、现成的内容，和简单的客户转化流程，把观众变成咨询。',
+    h_cta1:'WhatsApp 联系我',h_cta2:'免费领取我的数码差距评估 →',
+    chip1:'🎬 英文 &amp; 中文 AI 视频',chip2:'🌏 美国 · 澳洲 · 马来西亚',chip3:'🎩 获奖魔术师',
+    s_eyebrow:'我做什么',s_h2:'被看见。被信任。<br><span class="gold">收到咨询。</span>',
+    s_lead:'为靠信任做生意的人，提供一条龙的数码内容——不需要摄影棚，不需要学新软件，没有学习门槛。',
+    c1h:'AI 视频',c1p:'简短专业的英文或中文视频，介绍你、解释你的服务，在最初几秒就抓住注意力。',
+    c2h:'社交媒体内容',c2p:'现成的帖子、文案和图片，用平实的话写成，让人记得住，也愿意分享。',
+    c3h:'入门内容包',c3p:'快速被看见。一套完整的入门视频和帖子，不需要摄影棚，也不需要学新软件。',
+    c4h:'转化流程与邮件跟进',c4p:'简单的转化流程，加上温和的邮件跟进，把观众变成真正的咨询，让你专心服务客户。',
+    w_badge:'年金融与顾问经验',w_eyebrow:'为什么选我',w_h2:'我懂顾问怎么想，也懂客户怎么决定。',
+    w_lead:'30 多年在保险、银行、房产和财务规划领域的经验，让我明白顾问怎么思考、客户怎么做决定。我用平实的话来写，因为简单的话，才是人们记得住的。',
+    st1:'年经验',st2:'语言 · 英文 &amp; 中文',st3:'行业：保险、银行、房产、规划',
+    w_quote:'“简单的话，才是人们记得住的。”',
+    m_eyebrow:'秘密武器',m_h2:'信任，是在<span class="gold">最初几秒</span>里建立的。',
+    m_lead:'我也是一名职业魔术师。魔术教会我：信任是在最初几秒建立的，好的视频也是一样。我做的每一条视频，都是为了赢得那几秒。',
+    m_award:'<b>马来西亚最佳娱乐价值魔术师 — 2019</b><br><span style="color:var(--muted);font-size:.93rem">国际魔术师协会（International Magicians Society）颁发的感谢状。</span>',
+    g_eyebrow:'工作室幕后',g_h2:'不断学习。<br><span class="gold">不断创作。</span>',
+    g_lead:'从舞台到工作室——我一直在学习最新的 AI 和内容工具，所以我的客户不必自己去学。',
+    g1:'Sam Kwee · 数码创作者',g3:'已认证 · AI Content IP Marketing Masterclass',g4:'为 TikTok Shop 制作内容',
+    gl_eyebrow:'合作方式',gl_h2:'总部在马来西亚。<br>跨时区合作。',
+    gl_lead:'我与不同时区的客户合作，主要面向美国和澳洲——让你的内容，在客户一觉醒来时就已准备好。',
+    cl1:'<span class="dot"></span>吉隆坡 · 工作室',cl2:'纽约 · 美国',cl3:'墨尔本 · 澳洲',
+    octo:'另外，我也继续通过 <strong style="color:var(--text)">Octowill</strong>，为马来西亚的客户提供遗嘱、信托和传承规划服务。',
+    mf_eyebrow:'我的第二人生',
+    ct_eyebrow:'联系我',ct_h2:'准备好被看见，也被信任了吗？',ct_lead:'最快的联系方式是 WhatsApp，我会亲自回复。',
+    lb_call:'电话',lb_email:'电子邮件',
+    f_badge:'✦ 免费 · 无需承诺',f_h3:'免费申请你的数码成长差距评估',
+    f_p:'简单说说你的生意。我会告诉你，你的网上形象在哪里流失了信任——并在 24 小时内亲自回复你。',
+    ft1:'<strong style="color:var(--text)">Sam Kwee Digital Studio</strong> · 不是退休人生，而是重新设计人生。'
+  };
+  T.zh.heroTitle='不是退休人生，|而是<em>重新设计</em>人生。';
+  T.zh.manifesto='58 岁的我，不是要从人生中退休，而是要重新设计它。';
+  T.zh.marquee=['AI 视频','英文 &amp; 中文','社交媒体内容','入门内容包','简单转化流程','邮件跟进','瞬间建立信任'];
+  T.zh.title='Sam Kwee Digital Studio | 不是退休人生，而是重新设计人生';
+  T.zh.tip='你好！有问题吗？WhatsApp 我 👋';
+  T.zh.wa={nav:'你好 Sam，我在你的网站上看到你。我想进一步了解 Sam Kwee Digital Studio。',hero:'你好 Sam，我想谈谈如何为我的生意在网上建立信任。',contact:'你好 Sam，我想进一步了解你的服务。',fab:'你好 Sam，我在你的网站上看到你。'};
+
+  T.ms={
+    n1:'Perkhidmatan',n2:'Kenapa saya',n3:'Rahsia magik',n4:'Detik-detik',n5:'Bekerjasama',n6:'Hubungi',
+    h_eyebrow:'Sam Kwee · Pencipta Digital',
+    h_sub:'Saya membantu penasihat, perunding, jurulatih dan pemilik perniagaan kecil <strong>membina kepercayaan dalam talian</strong> — melalui video AI yang ringkas dan profesional, kandungan sedia guna dan corong pelanggan yang mudah, yang menukar penonton kepada pertanyaan.',
+    h_cta1:'Chat di WhatsApp',h_cta2:'Dapatkan Penilaian Jurang Digital PERCUMA →',
+    chip1:'🎬 Video AI dalam Bahasa Inggeris &amp; 中文',chip2:'🌏 AS · Australia · Malaysia',chip3:'🎩 Ahli silap mata pemenang anugerah',
+    s_eyebrow:'Apa yang saya buat',s_h2:'Dilihat. Dipercayai.<br><span class="gold">Dapat pertanyaan.</span>',
+    s_lead:'Kandungan digital siap-guna untuk mereka yang perniagaannya bergantung pada kepercayaan — tanpa studio, tanpa perisian baharu, tanpa perlu belajar dari awal.',
+    c1h:'Video Berkuasa AI',c1p:'Video ringkas dan profesional dalam bahasa Inggeris atau Cina yang memperkenalkan anda, menerangkan perkhidmatan anda dan menarik perhatian dalam beberapa saat pertama.',
+    c2h:'Kandungan Media Sosial',c2p:'Hantaran, kapsyen dan visual sedia guna yang ditulis dalam bahasa mudah — jenis yang diingati dan dikongsi orang.',
+    c3h:'Pek Kandungan Permulaan',c3p:'Mula dilihat dengan cepat. Satu set permulaan video dan hantaran yang lengkap — tanpa studio dan tanpa perisian baharu.',
+    c4h:'Corong &amp; Susulan E-mel',c4p:'Corong yang mudah dan susulan e-mel yang lembut, mengubah penonton menjadi pertanyaan sebenar — sementara anda fokus pada pelanggan anda.',
+    w_badge:'tahun dalam kewangan &amp; nasihat',w_eyebrow:'Kenapa saya',w_h2:'Saya faham cara penasihat berfikir — dan cara pelanggan membuat keputusan.',
+    w_lead:'Lebih 30 tahun dalam insurans, perbankan, hartanah dan perancangan kewangan mengajar saya cara penasihat berfikir dan cara pelanggan membuat keputusan. Saya menulis dalam bahasa mudah, kerana kata-kata yang ringkas itulah yang diingati orang.',
+    st1:'Tahun pengalaman',st2:'Bahasa · EN &amp; 中文',st3:'Industri: insurans, perbankan, hartanah, perancangan',
+    w_quote:'“Kata-kata yang ringkas itulah yang diingati orang.”',
+    m_eyebrow:'Bahan rahsia',m_h2:'Kepercayaan dibina dalam <span class="gold">beberapa saat pertama.</span>',
+    m_lead:'Saya juga seorang ahli silap mata profesional. Magik mengajar saya bahawa kepercayaan dibina dalam beberapa saat pertama — dan video yang baik berfungsi dengan cara yang sama. Setiap video yang saya hasilkan direka untuk memenangi saat-saat itu.',
+    m_award:'<b>Ahli Silap Mata Nilai Hiburan Terbaik, Malaysia — 2019</b><br><span style="color:var(--muted);font-size:.93rem">Sijil Penghargaan daripada International Magicians Society.</span>',
+    g_eyebrow:'Di sebalik studio',g_h2:'Sentiasa belajar.<br><span class="gold">Sentiasa mencipta.</span>',
+    g_lead:'Dari pentas ke studio — saya terus mempelajari alat AI dan kandungan terkini, supaya pelanggan saya tidak perlu.',
+    g1:'Sam Kwee · Pencipta Digital',g3:'Bersijil · AI Content IP Marketing Masterclass',g4:'Mencipta kandungan untuk TikTok Shop',
+    gl_eyebrow:'Bekerjasama',gl_h2:'Berpusat di Malaysia.<br>Bekerja merentasi zon masa.',
+    gl_lead:'Saya bekerja dengan pelanggan merentasi zon masa, dengan tumpuan kepada Amerika Syarikat dan Australia — supaya kandungan anda sedia apabila pelanggan anda bangun.',
+    cl1:'<span class="dot"></span>Kuala Lumpur · Studio',cl2:'New York · AS',cl3:'Melbourne · Australia',
+    octo:'Secara berasingan, saya meneruskan kerja wasiat, amanah dan perancangan legasi melalui <strong style="color:var(--text)">Octowill</strong> untuk pelanggan di Malaysia.',
+    mf_eyebrow:'Bab kedua saya',
+    ct_eyebrow:'Mari berbual',ct_h2:'Bersedia untuk dilihat — dan dipercayai?',ct_lead:'Cara terpantas menghubungi saya ialah melalui WhatsApp. Saya membalas sendiri.',
+    lb_call:'Panggilan',lb_email:'E-mel',
+    f_badge:'✦ Percuma · Tanpa komitmen',f_h3:'Mohon Penilaian Jurang Pertumbuhan Digital anda secara PERCUMA',
+    f_p:'Ceritakan sedikit tentang perniagaan anda. Saya akan tunjukkan di mana kehadiran dalam talian anda kehilangan kepercayaan — dan membalas sendiri dalam masa 24 jam.',
+    ft1:'<strong style="color:var(--text)">Sam Kwee Digital Studio</strong> · Bukan bersara dari hidup, tetapi mereka bentuk semula hidup.'
+  };
+  T.ms.heroTitle='Bukan bersara dari hidup, tetapi <em>mereka bentuk semula</em> hidup.';
+  T.ms.manifesto='Pada usia 58, saya tidak bersara daripada hidup. Saya mereka bentuknya semula.';
+  T.ms.marquee=['Video Berkuasa AI','Inggeris &amp; 中文','Kandungan Media Sosial','Pek Kandungan Permulaan','Corong Mudah','Susulan E-mel','Kepercayaan Dalam Beberapa Saat'];
+  T.ms.title='Sam Kwee Digital Studio | Bukan bersara dari hidup, tetapi mereka bentuk semula hidup';
+  T.ms.tip='Hai! Ada soalan? WhatsApp saya 👋';
+  T.ms.wa={nav:'Hai Sam, saya jumpa anda di laman web anda. Saya ingin tahu lebih lanjut tentang Sam Kwee Digital Studio.',hero:'Hai Sam, saya ingin berbincang tentang membina kepercayaan dalam talian untuk perniagaan saya.',contact:'Hai Sam, saya ingin tahu lebih lanjut tentang perkhidmatan anda.',fab:'Hai Sam, saya jumpa anda di laman web anda.'};
+
+  document.querySelectorAll('[data-i18n]').forEach(function(el){T.en[el.getAttribute('data-i18n')]=el.innerHTML;});
+
+  var LOC={en:'en-GB',zh:'zh-CN',ms:'ms-MY'},HTMLLANG={en:'en',zh:'zh-Hans',ms:'ms'},cur='en',mw=[];
+  var h=document.getElementById('heroTitle'),m=document.getElementById('manifesto'),track=document.getElementById('marqueeTrack');
+
+  function units(text,lang){return lang==='zh'?Array.from(text.replace(/\s+/g,'')):text.split(' ').filter(Boolean);}
+  function heroBuild(lang){
+    var segs=T[lang].heroTitle.split(/(<em>.*?<\/em>)/),out=[],i=0;
+    segs.forEach(function(seg){if(!seg)return;var em=seg.indexOf('<em>')===0,txt=seg.replace(/<\/?em>/g,'');
+      units(txt,lang).forEach(function(u){
+        if(u==='|'){out.push('<br>');return;}
+        out.push('<span class="w" style="animation-delay:'+(0.25+0.12*(i++))+'s">'+(em?'<em>'+u+'</em>':u)+'</span>');});});
+    h.innerHTML=out.join(lang==='zh'?'':' ');
+  }
+  function lite(){var r=m.getBoundingClientRect();var p=Math.min(Math.max((innerHeight*.85-r.top)/(innerHeight*.6),0),1);var n=Math.round(p*mw.length);mw.forEach(function(w,k){w.classList.toggle('lit',k<n)});}
+  function manifestoBuild(lang){
+    m.innerHTML=units(T[lang].manifesto,lang).map(function(w){return '<span>'+w+'</span>'}).join(lang==='zh'?'':' ');
+    mw=m.querySelectorAll('span');lite();
+  }
+  function marqueeBuild(lang){var a=T[lang].marquee;track.innerHTML=a.concat(a).map(function(s){return '<span>'+s+'</span>'}).join('');}
+  function tick(){document.querySelectorAll('[data-tz]').forEach(function(el){el.textContent=new Date().toLocaleTimeString('en-GB',{timeZone:el.dataset.tz,hour:'2-digit',minute:'2-digit'});});
+    document.querySelectorAll('[data-day]').forEach(function(el){el.textContent=new Date().toLocaleDateString(LOC[cur],{timeZone:el.dataset.day,weekday:'long',day:'numeric',month:'short'});});}
+  function apply(lang){
+    cur=lang;var D=T[lang];
+    document.documentElement.lang=HTMLLANG[lang];
+    document.title=D.title;
+    document.querySelectorAll('[data-i18n]').forEach(function(el){var k=el.getAttribute('data-i18n');el.innerHTML=(D[k]!==undefined?D[k]:T.en[k]);});
+    heroBuild(lang);manifestoBuild(lang);marqueeBuild(lang);
+    document.querySelectorAll('[data-wa]').forEach(function(a){a.href='https://wa.me/60122863063?text='+encodeURIComponent(D.wa[a.getAttribute('data-wa')]);});
+    document.getElementById('fabTip').textContent=D.tip;
+    document.querySelectorAll('#lang button').forEach(function(b){b.classList.toggle('on',b.getAttribute('data-l')===lang);});
+    tick();
+    try{localStorage.setItem('sk_lang',lang);}catch(e){}
+  }
+  document.querySelectorAll('#lang button').forEach(function(b){b.addEventListener('click',function(){apply(b.getAttribute('data-l'));});});
+  window.addEventListener('scroll',lite,{passive:true});
+  tick();setInterval(tick,15000);
+
+  var start='en';
+  try{start=localStorage.getItem('sk_lang')||'';}catch(e){start='';}
+  if(!T[start]){var nl=((navigator.languages&&navigator.languages[0])||navigator.language||'en').toLowerCase();start=nl.indexOf('zh')===0?'zh':(nl.indexOf('ms')===0||nl.indexOf('id')===0)?'ms':'en';}
+  apply(start);
 })();
 </script>
 </body>
